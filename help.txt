@@ -1,0 +1,18 @@
+﻿$sos
+    Esse literal comando que tu acabou de usar, seu tanso
+$addme
+    Adiciona o seu nome no final da lista de jogadores.
+$add nome <posição>
+    Adiciona um jogador na lista, opcionalmente em uma posição específica.
+$lista
+    Mostra os jogadores atuais na lista.
+$novalista <lista>
+	Substitui a lista atual por uma criada a partir do que você mandou. Exemplo: "$novalista CdB Sakuyalover Kujibiki Sabrefeelings"
+$random
+    Embaralha a lista de maneira aleatória.
+$limpalista
+    Limpa a lista de jogadores.
+$removeme
+    Kita da lista kkkkk que cagão
+$remove nome
+    Tira um cara da lista

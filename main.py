@@ -3,6 +3,7 @@ import random
 import os
 
 client = discord.Client()
+client.user.setActivity("$sos para comandos"); 
 
 listaJogadores = []
 
