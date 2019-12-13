@@ -1,5 +1,6 @@
 import discord
 import random
+import os
 
 client = discord.Client()
 
@@ -143,7 +144,6 @@ async def on_message(message):
         await message.channel.send("https://gfycat.com/boringsparklingaardwolf")
 		
 
-f = open("token.txt", "r")
-token = f.read()
-f.close()
-client.run(token)
+
+access_token = os.environ["ACCESS_TOKEN"]
+client.run(access_token)
