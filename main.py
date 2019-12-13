@@ -57,7 +57,8 @@ async def removePlayerFromList(playerName, message):
 @client.event
 async def on_ready():
     print('We have logged in as {0.user}'.format(client))
-    await client.change_presence(game=discord.Game(name="$sos para comandos", type=1))
+    game = discord.Game("$sos para comandos")
+    await client.change_presence(status=discord.Status.online, activity=game)
 
 
 @client.event
