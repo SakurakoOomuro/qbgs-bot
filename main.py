@@ -3,7 +3,6 @@ import random
 import os
 
 client = discord.Client()
-client.user.setActivity("$sos para comandos"); 
 
 listaJogadores = []
 
@@ -58,6 +57,7 @@ async def removePlayerFromList(playerName, message):
 @client.event
 async def on_ready():
     print('We have logged in as {0.user}'.format(client))
+    await client.change_presence(game=discord.Game(name="$sos para comandos", type=1))
 
 
 @client.event
